@@ -2,16 +2,16 @@
   "properties": {
     "MapName": "colour and name testing",
     "size": {
-      "x": 4,
-      "y": 3,
-      "z": 2
+      "x": 32,
+      "y": 60,
+      "z": 32
     }
   },
   "blocks": {
     "1": {
-      "blockId": "1x1_wooden",
+      "blockId": "1x1_stuffed",
       "position": {
-        "x": 3,
+        "x": 16,
         "y": 0,
         "z": 1
       },
@@ -25,9 +25,37 @@
     "2": {
       "blockId": "1x1_stuffed",
       "position": {
-        "x": 2,
+        "x": 17,
         "y": 0,
-        "z": 1
+        "z": 3
+      },
+      "rotation": {
+        "x": 45,
+        "y": 45,
+        "z": 45
+      },
+      "colour": "light_orange"
+    },
+    "3": {
+      "blockId": "1x1_stuffed",
+      "position": {
+        "x": 18,
+        "y": 0,
+        "z": 7
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "colour": "light_orange"
+    },
+    "4": {
+      "blockId": "1x1_stuffed",
+      "position": {
+        "x": 19,
+        "y": 0,
+        "z": 10
       },
       "rotation": {
         "x": 0,
@@ -39,4 +67,5 @@
   }
 
 }
+
 
